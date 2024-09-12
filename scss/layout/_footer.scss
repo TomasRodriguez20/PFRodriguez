@@ -1,0 +1,51 @@
+@import "../utilities/variables";
+@import "../utilities/mediaq";
+
+footer {
+    background-color: $color-primario;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 24px;
+  }
+    
+    .remeraFoo,
+    .bolsaFoo,
+    .camionetaFoo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+   
+    .remImg,
+    .bolImg,
+    .camImg {
+      width: 9%;
+      margin: 18px 8px;
+      border-radius: 26%;
+      transition: transform $transicion-suave, box-shadow $transicion-suave;
+    
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+    }
+    .bolImg {
+        width: 19%;
+      }
+      
+      .h4 {
+        margin-left: 4px;
+        margin-top: 43px;
+        font-size: $tamano-pequeno;
+        color: $color-texto;
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+        font-optical-sizing: auto;
+        transition: color $transicion-suave, transform $transicion-suave;
+      
+        &:hover {
+          color: $color-resalte;
+          transform: scale(1.05);
+        }
+      
+      }

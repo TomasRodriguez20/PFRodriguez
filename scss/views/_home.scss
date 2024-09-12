@@ -1,0 +1,73 @@
+@import "../utilities/variables";
+@import "../utilities/mediaq";
+
+body {
+    background-color: $color-secundario;
+}
+  
+p {
+    font-family: $familia-fuente-primaria;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+}
+main {
+    display: flex;
+    height: 680px;
+    justify-content: center;
+}
+.banner,
+.bannerC {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(122, 145, 141);
+}
+.imgBan {
+  width: 450px;
+  height: 500px;
+  border: 0;
+  border-radius: 10%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+}
+.divBan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, transform 0.3s ease;
+
+  &:hover {
+    background: #f0f0f0;
+    transform: translateY(-5px);
+  }
+}
+
+.tituloBan {
+  font-size: 39px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #007bff;
+  }
+}
+
+.txtBan {
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+  margin-top: 10px;
+}

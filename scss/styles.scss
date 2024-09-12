@@ -1,8 +1,12 @@
-@import "base";
-@import "layout"; 
-@import "showroom";
-@import "utilities";
-@import "vendors";
+@import "base/showroom";
+@import "layout/footer"; 
+@import "layout/header"; 
+@import "layout/navigation"; 
+@import "views/contact";
+@import "views/home";
+@import "utilities/mixin";
+@import "utilities/variables";
+@import "vendors/boostrap.scss";
 
 
 
