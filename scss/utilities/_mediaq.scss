@@ -172,18 +172,24 @@
       flex-direction: column;
     }
   }
+  @media (max-width: 1500px){
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: auto;
+    }
+  }
+  @media (min-width: 1500px){
+    main {
+      height: 1400px;
+    }
+  }
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: auto;
   }
   
   .imgBan {
@@ -211,3 +217,4 @@
 
   height: 647px;    
   }
+
