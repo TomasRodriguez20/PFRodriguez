@@ -190,6 +190,11 @@ img.imgBan {
 
 .sect1 {
   height: 647px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: auto;
 }
 
 .logo {
@@ -267,6 +272,64 @@ main {
 
 img.imgBan {
   height: auto !important;
+}
+
+.testimonio {
+  max-width: 300px;
+}
+.testimonio img {
+  width: 50px;
+  height: 75px;
+  border-radius: 50%;
+}
+.testimonio p {
+  margin-top: 10px;
+}
+
+.clientes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.testimonios {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.testimonios h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.descripcion {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.descripcion h2 {
+  font-size: 2rem;
+  color: #333;
+}
+.descripcion p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#sect {
+  background-color: #7fb7a2;
+}
+#sect .encabezado {
+  text-align: center;
+  margin-bottom: 40px;
+}
+#sect .encabezado h1 {
+  font-size: 3rem;
+  color: #333;
+}
+#sect .encabezado p {
+  font-size: 1.2rem;
+  color: #555;
 }
 
 @media (min-width: 1024px) {
@@ -461,6 +524,11 @@ img.imgBan {
 
 .sect1 {
   height: 647px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: auto;
 }
 
 footer {
@@ -705,6 +773,11 @@ img.imgBan {
 
 .sect1 {
   height: 647px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: auto;
 }
 
 h1 {
@@ -943,6 +1016,11 @@ img.imgBan {
 
 .sect1 {
   height: 647px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: auto;
 }
 
 nav {
@@ -1164,6 +1242,11 @@ img.imgBan {
 
 .sect1 {
   height: 647px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: auto;
 }
 
 .mapContainer {
@@ -1401,6 +1484,11 @@ img.imgBan {
 
 .sect1 {
   height: 647px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: auto;
 }
 
 body {
@@ -1668,6 +1756,11 @@ img.imgBan {
 
 .sect1 {
   height: 647px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: auto;
 }
 
 .carousel-item .div2 div {
